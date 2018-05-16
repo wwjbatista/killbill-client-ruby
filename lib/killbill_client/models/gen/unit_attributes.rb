@@ -27,14 +27,9 @@
 
 module KillBillClient
   module Model
-    class OverdueStateAttributes < Resource
+    class UnitAttributes < Resource
       attribute :name
-      attribute :external_message
-      attribute :days_between_payment_retries
-      attribute :is_disable_entitlement_and_changes_blocked
-      attribute :is_block_changes
-      attribute :is_clear_state
-      attribute :reevaluation_interval_days
+      attribute :pretty_name
     end
   end
 end

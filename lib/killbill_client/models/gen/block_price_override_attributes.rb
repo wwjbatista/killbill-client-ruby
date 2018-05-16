@@ -27,8 +27,11 @@
 
 module KillBillClient
   module Model
-    class BulkBaseSubscriptionAndAddOnsAttributes < Resource
-      attribute :base_entitlement_and_add_ons
+    class BlockPriceOverrideAttributes < Resource
+      attribute :unit_name
+      attribute :size
+      attribute :price
+      attribute :max
     end
   end
 end
